@@ -12,7 +12,7 @@ site_title: OpenSteem
 company_name: OpenSteem
 # this appears in the footer
 
-github_editme_path: OpenSteem/opensteem.github.io/
+github_editme_path: OpenSteem/opensteem.github.io/tree/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 disqus_shortname:
