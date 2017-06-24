@@ -20,42 +20,54 @@ entries:
       type: frontmatter
 
   - title: Overview
-    output: web, pdf
+    output: web
     folderitems:
 
     - title: Introduction
       url: /index.html
-      output: web, pdf
+      output: web
       type: homepage
-
-    - title: About
-      url: /about
-      output: web, pdf
 
     - title: Contribute
       url: /contribute
-      output: web, pdf
+      output: web
 
   - title: User
-    output: web, pdf
+    output: web
     folderitems:
 
     - title: Profile Image
       url: /profile-image
-      output: web, pdf
+      output: web
 
     - title: Biography
       url: /biography
-      output: web, pdf
+      output: web
 
   - title: Post
-    output: web, pdf
+    output: web
     folderitems:
 
     - title: App
       url: /app
-      output: web, pdf
+      output: web
 
     - title: Links
       url: /links
-      output: web, pdf
+      output: web
+
+  - title: Media Objects
+    output: web
+    folderitems:
+
+    - title: VideoObject
+      url: /VideoObject
+      output: web
+
+    - title: AudioObject
+      url: /AudioObject
+      output: web
+
+    - title: ImageObject
+      url: /ImageObject
+      output: web

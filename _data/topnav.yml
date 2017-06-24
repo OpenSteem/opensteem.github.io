@@ -6,4 +6,4 @@ topnav:
     - title: GitHub
       external_url: https://github.com/opensteem/opensteem.github.io
     - title: News
-      url: /news
+      external_url: https://steemit.com/@opensteem.org
