@@ -32,8 +32,8 @@ entries:
       url: /about
       output: web, pdf
 
-    - title: Support
-      url: /support
+    - title: Contribute
+      url: /contribute
       output: web, pdf
 
   - title: User
