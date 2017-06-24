@@ -1,12 +1,8 @@
 allowed-tags:
   - getting_started
-  - content_types
-  - navigation
-  - formatting
-  - publishing
-  - single_sourcing
-  - special_layouts
-  - collaboration
-  - news
-  - troubleshooting
-  - mobile
+  - users
+  - posts
+  - profile
+  - image
+  - meta
+  - uncategorized
