@@ -36,24 +36,24 @@ entries:
     output: web
     folderitems:
 
-    - title: Profile Image
-      url: /profile-image
-      output: web
-
-    - title: Biography
-      url: /biography
+    - title: profile
+      url: /profile
       output: web
 
   - title: Post
     output: web
     folderitems:
 
-    - title: App
+    - title: app
       url: /app
       output: web
 
-    - title: Links
-      url: /links
+    - title: image
+      url: /image
+      output: web
+
+    - title: images
+      url: /images
       output: web
 
   - title: Media Objects
