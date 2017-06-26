@@ -21,23 +21,18 @@ folder: docs
     <tbody>
       <tr>
         <td>image</td>
-        <td>A image that represents that user.</td>
+        <td>A small image that represents that user.</td>
         <td><a href="/ImageObject">ImageObject</a></td>
       </tr>
       <tr>
-        <td>first_name</td>
-        <td>A string that represents the first name of the user.</td>
-        <td>string</td>
+        <td>banner</td>
+        <td>A large image that represents that user.</td>
+        <td><a href="/ImageObject">ImageObject</a></td>
       </tr>
       <tr>
-        <td>last_name</td>
-        <td>A string that represents the last name of the user.</td>
-        <td>string</td>
-      </tr>
-      <tr>
-        <td>full_name</td>
-        <td>A string that represents the full name of the user.</td>
-        <td>string</td>
+        <td>name</td>
+        <td>A dictonary containing the <code>user</code>, <code>full</code>, <code>first</code>, and <code>last</code> keys.</td>
+        <td>dict</td>
       </tr>
       <tr>
         <td>about</td>
@@ -64,7 +59,19 @@ folder: docs
     			"width": 50,
     			"height": 50
     		},
-    		"full_name": "John Smith",
+    		"banner": {
+    			"@type": "ImageObject",
+    			"url": "https://www.example.com/image_large.jpeg",
+    			"base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QYYFRgqSGzYQwAAAA1JREFUCNdjYGBg+A8AAQQBAKTgrDEAAAAASUVORK5CYII=",
+    			"width": 1280,
+    			"height": 720
+    		},
+    		"name": {
+    			"user": "johnsmith",
+    			"full": "John Smith",
+    			"first": "John",
+    			"last": "Smith"
+    		},
     		"about": "I am a generic user",
     		"location": "Earth"
     	}
