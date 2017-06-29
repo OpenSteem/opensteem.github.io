@@ -1,6 +1,6 @@
 ---
-title: mentions
-keywords: post, mentions
+title: links
+keywords: post, link
 last_updated: June 29, 2017
 summary: "A list of links"
 sidebar: opensteem_sidebar
