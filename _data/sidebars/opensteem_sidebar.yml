@@ -56,6 +56,19 @@ entries:
       url: /images
       output: web
 
+    - title: links
+      url: /links
+      output: web
+
+    - title: format
+      url: /format
+      output: web
+
+    - title: mentions
+      url: /mentions
+      output: web
+
+
   - title: Media Objects
     output: web
     folderitems:
