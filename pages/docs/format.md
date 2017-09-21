@@ -1,7 +1,7 @@
 ---
 title: format
 keywords: post, links
-last_updated: June 24, 2017
+last_updated: June 29, 2017
 summary: "The format of the content of the post"
 sidebar: opensteem_sidebar
 permalink: format

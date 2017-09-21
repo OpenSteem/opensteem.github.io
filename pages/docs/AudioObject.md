@@ -1,7 +1,7 @@
 ---
 title: AudioObject
 keywords: audio, music, sound, object
-last_updated: June 24, 2017
+last_updated: September 16, 2017
 summary: "A way to embed audio directly onto the steem blockchain"
 sidebar: opensteem_sidebar
 permalink: AudioObject
@@ -27,6 +27,12 @@ folder: docs
         <td><code>https://example.com/audio.mp3</code></td>
       </tr>
       <tr>
+        <td>ipfs_hash</td>
+        <td>The IPFS hash of the item if stored using the Interplanetary File System</td>
+        <td>string</td>
+        <td><code>QmQY8FCpmfCPpYHTooxfBNYh88Y...</code></td>
+      </tr>
+      <tr>
         <td>base64</td>
         <td>A base64 encoded audio file that can be stored on the blockchain.</td>
         <td>string</td>
@@ -47,6 +53,7 @@ folder: docs
     {
         "@type":"AudioObject",
         "url":"https://www.example.com/audio.ogg",
+        "ipfs_hash":"QmQY8FCpmfCPpYHTooxfBNYh88YdfbDUwAwjHH3Eze9vjv",
         "base64":"data:audio/ogg;base64,T2dnUwACAAAAAAAAAAA7/PA+AA ... 8fH87+aPqxCcRN8TsB",
         "duration":"P3M14S"
     }

@@ -37,6 +37,7 @@ folder: docs
           "@type":"ImageObject",
           "url":"https://www.example.com/image.jpeg",
           "base64":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QYYFRgqSGzYQwAAAA1JREFUCNdjYGBg+A8AAQQBAKTgrDEAAAAASUVORK5CYII=",
+          "ipfs_hash":"QmQY8FCpmfCPpYHTooxfBNYh88YdfbDUwAwjHH3Eze9vjv"
           "width":1280,
           "height":720
       }
